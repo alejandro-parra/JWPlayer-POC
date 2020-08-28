@@ -8,13 +8,14 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        JWPlayerController.setPlayerKey("wOGIuuctoEp4mTurNP7uQ6nwznoj8NM7MKwuyvMLo4OWkvhQgoYk+EKGfN33ERDw")
         return true
     }
 

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3917AED2E3E35C8CC0411F05 /* Pods_JWPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407B7C0B1733B14EE78C3C85 /* Pods_JWPlayer.framework */; };
+		6060B563BAA7412679D85428 /* Pods_JWPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62E84B52BB66DFC5D9BA2A4 /* Pods_JWPlayerTests.framework */; };
 		D1BA568024F93A6400988D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA567F24F93A6400988D05 /* AppDelegate.swift */; };
 		D1BA568224F93A6400988D05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA568124F93A6400988D05 /* SceneDelegate.swift */; };
 		D1BA568424F93A6400988D05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA568324F93A6400988D05 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		D1BA568C24F93A6700988D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BA568A24F93A6700988D05 /* LaunchScreen.storyboard */; };
 		D1BA569724F93A6700988D05 /* JWPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA569624F93A6700988D05 /* JWPlayerTests.swift */; };
 		D1BA56A224F93A6700988D05 /* JWPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA56A124F93A6700988D05 /* JWPlayerUITests.swift */; };
+		F77788FF913CB38A084F31ED /* Pods_JWPlayer_JWPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7748B469FC3D6B8F8FA65046 /* Pods_JWPlayer_JWPlayerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2118BE977C689DEE397E1017 /* Pods-JWPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayer.release.xcconfig"; path = "Target Support Files/Pods-JWPlayer/Pods-JWPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		407B7C0B1733B14EE78C3C85 /* Pods_JWPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		609DD7EACC9423565744B743 /* Pods-JWPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayer.debug.xcconfig"; path = "Target Support Files/Pods-JWPlayer/Pods-JWPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		7748B469FC3D6B8F8FA65046 /* Pods_JWPlayer_JWPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPlayer_JWPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D891664023B65E44ED8592D /* Pods-JWPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-JWPlayerTests/Pods-JWPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95AEFE3D88A9C4548E4CEBC5 /* Pods-JWPlayer-JWPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayer-JWPlayerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JWPlayer-JWPlayerUITests/Pods-JWPlayer-JWPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0E2D88F9FE4313B1158727F /* Pods-JWPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-JWPlayerTests/Pods-JWPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C62E84B52BB66DFC5D9BA2A4 /* Pods_JWPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA567C24F93A6400988D05 /* JWPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA567F24F93A6400988D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1BA568124F93A6400988D05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,8 @@
 		D1BA569D24F93A6700988D05 /* JWPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA56A124F93A6700988D05 /* JWPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWPlayerUITests.swift; sourceTree = "<group>"; };
 		D1BA56A324F93A6700988D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BA56B024F95EAA00988D05 /* JWPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		EEA3CAA77F6F29A1C1496C4D /* Pods-JWPlayer-JWPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPlayer-JWPlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-JWPlayer-JWPlayerUITests/Pods-JWPlayer-JWPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3917AED2E3E35C8CC0411F05 /* Pods_JWPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6060B563BAA7412679D85428 /* Pods_JWPlayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77788FF913CB38A084F31ED /* Pods_JWPlayer_JWPlayerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86F03945BE9F886EF6B767DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				407B7C0B1733B14EE78C3C85 /* Pods_JWPlayer.framework */,
+				7748B469FC3D6B8F8FA65046 /* Pods_JWPlayer_JWPlayerUITests.framework */,
+				C62E84B52BB66DFC5D9BA2A4 /* Pods_JWPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C219E3DAFA6C837A75FFEA64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609DD7EACC9423565744B743 /* Pods-JWPlayer.debug.xcconfig */,
+				2118BE977C689DEE397E1017 /* Pods-JWPlayer.release.xcconfig */,
+				95AEFE3D88A9C4548E4CEBC5 /* Pods-JWPlayer-JWPlayerUITests.debug.xcconfig */,
+				EEA3CAA77F6F29A1C1496C4D /* Pods-JWPlayer-JWPlayerUITests.release.xcconfig */,
+				7D891664023B65E44ED8592D /* Pods-JWPlayerTests.debug.xcconfig */,
+				C0E2D88F9FE4313B1158727F /* Pods-JWPlayerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D1BA567324F93A6400988D05 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				D1BA569524F93A6700988D05 /* JWPlayerTests */,
 				D1BA56A024F93A6700988D05 /* JWPlayerUITests */,
 				D1BA567D24F93A6400988D05 /* Products */,
+				C219E3DAFA6C837A75FFEA64 /* Pods */,
+				86F03945BE9F886EF6B767DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +147,7 @@
 				D1BA568824F93A6700988D05 /* Assets.xcassets */,
 				D1BA568A24F93A6700988D05 /* LaunchScreen.storyboard */,
 				D1BA568D24F93A6700988D05 /* Info.plist */,
+				D1BA56B024F95EAA00988D05 /* JWPlayer-Bridging-Header.h */,
 			);
 			path = JWPlayer;
 			sourceTree = "<group>";
@@ -135,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1BA56A624F93A6700988D05 /* Build configuration list for PBXNativeTarget "JWPlayer" */;
 			buildPhases = (
+				5453054FE2CBCE988709C04E /* [CP] Check Pods Manifest.lock */,
 				D1BA567824F93A6400988D05 /* Sources */,
 				D1BA567924F93A6400988D05 /* Frameworks */,
 				D1BA567A24F93A6400988D05 /* Resources */,
+				81A96A117E3AD2EC732B06A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1BA56A924F93A6700988D05 /* Build configuration list for PBXNativeTarget "JWPlayerTests" */;
 			buildPhases = (
+				3A31B3E7327CA366BC9682AD /* [CP] Check Pods Manifest.lock */,
 				D1BA568E24F93A6700988D05 /* Sources */,
 				D1BA568F24F93A6700988D05 /* Frameworks */,
 				D1BA569024F93A6700988D05 /* Resources */,
@@ -170,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1BA56AC24F93A6700988D05 /* Build configuration list for PBXNativeTarget "JWPlayerUITests" */;
 			buildPhases = (
+				05DA8516001A841F8EDB1455 /* [CP] Check Pods Manifest.lock */,
 				D1BA569924F93A6700988D05 /* Sources */,
 				D1BA569A24F93A6700988D05 /* Frameworks */,
 				D1BA569B24F93A6700988D05 /* Resources */,
+				27E6F57CBED8AFC5EA134A71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +243,7 @@
 				TargetAttributes = {
 					D1BA567B24F93A6400988D05 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					D1BA569124F93A6700988D05 = {
 						CreatedOnToolsVersion = 11.6;
@@ -253,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05DA8516001A841F8EDB1455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWPlayer-JWPlayerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27E6F57CBED8AFC5EA134A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayer-JWPlayerUITests/Pods-JWPlayer-JWPlayerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayer-JWPlayerUITests/Pods-JWPlayer-JWPlayerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWPlayer-JWPlayerUITests/Pods-JWPlayer-JWPlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A31B3E7327CA366BC9682AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5453054FE2CBCE988709C04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A96A117E3AD2EC732B06A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayer/Pods-JWPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWPlayer/Pods-JWPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWPlayer/Pods-JWPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1BA567824F93A6400988D05 /* Sources */ = {
@@ -432,8 +583,10 @@
 		};
 		D1BA56A724F93A6700988D05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609DD7EACC9423565744B743 /* Pods-JWPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JWPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +595,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.parra.JWPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JWPlayer/JWPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,8 +604,10 @@
 		};
 		D1BA56A824F93A6700988D05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2118BE977C689DEE397E1017 /* Pods-JWPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JWPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +616,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.parra.JWPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JWPlayer/JWPlayer-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +624,7 @@
 		};
 		D1BA56AA24F93A6700988D05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D891664023B65E44ED8592D /* Pods-JWPlayerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +646,7 @@
 		};
 		D1BA56AB24F93A6700988D05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E2D88F9FE4313B1158727F /* Pods-JWPlayerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +668,7 @@
 		};
 		D1BA56AD24F93A6700988D05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95AEFE3D88A9C4548E4CEBC5 /* Pods-JWPlayer-JWPlayerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +688,7 @@
 		};
 		D1BA56AE24F93A6700988D05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA3CAA77F6F29A1C1496C4D /* Pods-JWPlayer-JWPlayerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
