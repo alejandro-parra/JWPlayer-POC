@@ -1,6 +1,13 @@
 # JWPlayer iOS Test
 
-  Detalles importantes del player:
+
+ Instalación:
+-Correr el comando "pod install" dentro de la carpeta para desargar los pods del proyecto
+
+
+
+
+   Detalles importantes del player:
 - Minimo iOS 9.0
 - Hecho sobre AVFoundation
 - As of JW Player's iOS SDK 3.5, the deprecated UIWebView API has been replaced with the WKWebView.
@@ -9,3 +16,4 @@
 - Imagen offline en cada video para cuando no tenga internet el usuario
 - Se pueden meter subtítulos embebidos o externos, los embebidos tienen que tener alguno de estos formatos: CEA-608, CEA-708, in-manifest WebVTT
 - Customización visual de todos los elementos del player
+

@@ -7,6 +7,7 @@ target 'JWPlayer' do
 
   # Pods for JWPlayer
   pod 'JWPlayer-SDK', '3.16.0'
+  pod 'google-cast-sdk'
 
   target 'JWPlayerTests' do
     inherit! :search_paths
